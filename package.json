@@ -6,6 +6,7 @@
     "dev": "next dev",
     "dw": "npx kill-port 3000 & next dev & ngrok http --url=leopard-sure-mule.ngrok-free.app 3000",
     "db": "bunx drizzle-kit studio",
+    "db:push": "drizzle-kit push",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
